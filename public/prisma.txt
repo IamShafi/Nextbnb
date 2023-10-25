@@ -1,6 +1,19 @@
 // This is your Prisma schema file,
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
+/*
+DATABASE_URL= "mongodb+srv://iamshafi:iamshafi@cluster0.jfsw3dj.mongodb.net/nextbnb"
+NEXTAUTH_URL = http://localhost:3000
+NEXTAUTH_SECRET = mysecretid
+GITHUB_ID= "03a137ab86630dfa21fc"
+GITHUB_SECRET= "10f76b7988e3ad561c4bd6184b5fb4e6d0906ce8"
+ 
+# GOOGLE_CLIENT_ID="124990660042-6bklvm1jdg20kbmc6lfujt2irf1j55cs.apps.googleusercontent.com"
+GOOGLE_CLIENT_ID= "1058546103548-360l2hg90pn8hegi6k9b4oho7rtenqus.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET= "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"
+# GOOGLE_CLIENT_SECRET="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"
 
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME= "dsrypgpma"
+*/
 generator client {
   provider = "prisma-client-js"
 }
