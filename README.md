@@ -2,7 +2,7 @@
  An online marketplace that connects people who want to rent out their homes with people looking for accommodations in specific locales.
  This is a repository for a Full Stack application with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
  ### Screenshot
- <img src="https://github.com/IamShafi/Nextbnb/blob/main/public/images/image_2023-10-25_071054707.png"/>
+ <img src="https://github.com/IamShafi/Nextbnb/blob/main/public/image_2023-12-19_181500147.png"/>
 Features:
 
 - Tailwind design
