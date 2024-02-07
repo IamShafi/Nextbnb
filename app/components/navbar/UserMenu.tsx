@@ -61,6 +61,7 @@ const UserMenu: React.FC<UserMenuProps> = ({
         >
           rent your home
         </div>
+        {/* userMenu */}
         <div 
         onClick={toggleOpen}
         className="
