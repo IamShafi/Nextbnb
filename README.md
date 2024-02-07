@@ -1,12 +1,24 @@
 # Nextbnb
  An online marketplace that connects people who want to rent out their homes with people looking for accommodations in specific locales.
- This is a repository for a Full Stack application with Next.js 13 App Router: React, Tailwind, Prisma, MongoDB, NextAuth.
+
+ ## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js 13
+- TypeScript
+- TailwindCSS
+- Prisma
+- MongoDB
+- Axios
+- NextAuth
+- React Hook Form
+- Zustand
+
  ### Screenshot
  <img src="https://github.com/IamShafi/Nextbnb/blob/main/public/image_2023-12-19_181500147.png"/>
-Features:
 
-- Tailwind design
-- Tailwind animations and effects
+## <a name="features">🔋 Features</a>
+
+
 - Full responsiveness
 - Credential authentication
 - Google authentication
@@ -15,15 +27,12 @@ Features:
 - Client form validation and handling using react-hook-form
 - Server error handling using react-toast
 - Calendars with react-date-range
-- Page loading state
-- Page empty state
 - Booking / Reservation system
 - Guest reservation cancellation
 - Owner reservation cancellation
 - Creation and deletion of properties
 - Pricing calculation
 - Advanced search algorithm by category, date range, map location, number of guests, rooms and bathrooms
-    - For example we will filter out properties that have a reservation in your desired date range to travel
 - Favorites system
 
   
@@ -32,14 +41,25 @@ Features:
 **Node version 14.x**
 
 
+Follow these steps to set up the project locally on your machine.
+
+
+**Cloning the Repository**
+
+```bash
+git clone https://github.com/your-username/your-project.git
+cd your-project
+```
+
 ### Install packages
 
 ```shell
 npm i
 ```
 
-### Setup .env file
+**Set Up Environment Variables**
 
+Create a new file named `.env` in the root of your project and add the following content:
 
 ```js
 DATABASE_URL= ->MongoDB
@@ -50,6 +70,7 @@ GITHUB_SECRET=
 NEXTAUTH_SECRET= "anystring"
 NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME= ->https://console.cloudinary.com/settings/..../upload
 ```
+Replace the placeholder values with your actual credentials 
 
 ### Setup Prisma
 
